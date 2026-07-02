@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehak Khadwal — Web Developer</title>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<!-- ===== TAB BAR NAV ===== -->
+<nav>
+    <div class="tab-bar">
+        <div class="editor-dots">
+            <span class="dot red"></span>
+            <span class="dot amber"></span>
+            <span class="dot green"></span>
+        </div>
+        <ul class="tabs">
+            <li><a href="#home" class="tab-link active" data-section="home"><i class='bx bx-home-alt'></i>home.tsx</a></li>
+            <li><a href="#about" class="tab-link" data-section="about"><i class='bx bx-user'></i>about.tsx</a></li>
+            <li><a href="#education" class="tab-link" data-section="education"><i class='bx bx-graduation'></i>education.tsx</a></li>
+            <li><a href="#projects" class="tab-link" data-section="projects"><i class='bx bx-code-alt'></i>projects.tsx</a></li>
+            <li><a href="#certifications" class="tab-link" data-section="certifications"><i class='bx bx-medal'></i>certs.tsx</a></li>
+            <li><a href="#contact" class="tab-link" data-section="contact"><i class='bx bx-envelope'></i>contact.tsx</a></li>
+        </ul>
+    </div>
+    <i class='bx bx-menu' id="menu"></i>
+</nav>
+
+<!-- ===== HOME / HERO ===== -->
+<section id="home">
+    <div class="editor-window hero-window reveal">
+        <div class="window-titlebar">
+            <div class="editor-dots">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+            </div>
+            <span class="window-filename">profile.js</span>
+        </div>
+        <div class="window-body">
+            <div class="gutter" id="hero-gutter"></div>
+            <pre class="code-content"><code id="typed-code"></code><span class="cursor-blink">&#9608;</span></pre>
+        </div>
+    </div>
+
+    <div class="hero-meta reveal">
+        
+        <h1 class="hero-name">Mehak <span class="accent-gradient">Khadwal</span></h1>
+        <p class="hero-role">Web Developer <span class="dim">·</span> CS Engineering Student, CGC University</p>
+        <div class="btn-row">
+            <a href="#contact" class="btn btn-primary">Hire Me <i class='bx bx-right-arrow-alt'></i></a>
+            <a href="#projects" class="btn btn-ghost">View Projects</a>
+        </div>
+    </div>
+    <div class="scroll-cue"><i class='bx bx-chevron-down'></i></div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+    <p class="eyebrow reveal">// 01 — about</p>
+    <div class="about-grid">
+        <div class="about-text reveal">
+            <h2>Building software, <span class="accent-green">coordinating people.</span></h2>
+            <p>I'm a B.Tech Computer Science Engineering student at CGC University, affiliated with Punjab Technical University. I actively contribute to my campus tech community as <strong class="accent-blue">Event Coordinator for the GFG Campus Body</strong> — planning and executing events for technical and student communities.</p>
+            <p>I also serve as an <strong class="accent-purple">NSS Coordinator</strong>, organizing community outreach initiatives and leading student volunteer teams. With hands-on experience in APIs, Java, and problem-solving, I care about using what I build to make a real, tangible contribution.</p>
+        </div>
+        <div class="skills-panel reveal">
+            <div class="window-titlebar">
+                <div class="editor-dots">
+                    <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+                </div>
+                <span class="window-filename">skills.json</span>
+            </div>
+            <div class="skills-body">
+                <div class="skill-row"><span class="skill-key">"frontend"</span><span class="skill-arr">[</span></div>
+                <div class="skill-tag"><i class='bx bxl-html5'></i>HTML</div>
+                <div class="skill-tag"><i class='bx bxl-css3'></i>CSS</div>
+                <div class="skill-tag"><i class='bx bxl-javascript'></i>JavaScript</div>
+                <div class="skill-tag"><i class='bx bxl-react'></i>React</div>
+                <div class="skill-row"><span class="skill-arr">],</span></div>
+                <div class="skill-row"><span class="skill-key">"backend"</span><span class="skill-arr">[</span></div>
+                <div class="skill-tag"><i class='bx bxl-nodejs'></i>Node</div>
+                <div class="skill-tag"><i class='bx bx-data'></i>MySQL</div>
+                <div class="skill-tag"><i class='bx bxs-cube'></i>APIs</div>
+                <div class="skill-row"><span class="skill-arr">]</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education">
+    <p class="eyebrow reveal">// 02 — education</p>
+    <h2 class="section-title reveal">Academic timeline</h2>
+
+    <div class="timeline">
+        <div class="timeline-item reveal">
+            <div class="timeline-marker"><i class='bx bx-current-location'></i></div>
+            <div class="timeline-card">
+                <span class="timeline-tag">ongoing</span>
+                <h3>B.Tech — Computer Science Engineering</h3>
+                <h4>CGC University, Mohali <span class="dim">· affiliated with Punjab Technical University</span></h4>
+                <div class="timeline-stats">
+                    <div class="stat"><span class="stat-label">CGPA</span><span class="stat-value accent-green">7.29</span></div>
+                    <div class="stat"><span class="stat-label">Expected</span><span class="stat-value">2026</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+                <span class="timeline-tag">2023</span>
+                <h3>Senior Secondary (12th)</h3>
+                <h4>KV International School, Una, Himachal Pradesh</h4>
+                <div class="timeline-stats">
+                    <div class="stat"><span class="stat-label">Percentage</span><span class="stat-value accent-blue">70%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+                <span class="timeline-tag">2021</span>
+                <h3>Secondary (10th)</h3>
+                <h4>KV International School, Una, Himachal Pradesh</h4>
+                <div class="timeline-stats">
+                    <div class="stat"><span class="stat-label">Percentage</span><span class="stat-value accent-amber">85%</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+    <p class="eyebrow reveal">// 03 — projects</p>
+    <h2 class="section-title reveal">Things I've built</h2>
+
+    <div class="project-grid">
+        <div class="project-card reveal">
+            <div class="project-card-head">
+                <span class="project-index">01</span>
+                <i class='bx bx-leaf project-icon'></i>
+            </div>
+            <h3>AI Crop Detector</h3>
+            <p class="dim">A machine-learning based tool that analyzes crop images to detect plant health and disease patterns, helping farmers catch issues early.</p>
+            <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Machine Learning</span>
+                <span class="project-tag">Image Processing</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link"><i class='bx bxl-github'></i> Code</a>
+                <a href="#" class="project-link"><i class='bx bx-link-external'></i> Demo</a>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-card-head">
+                <span class="project-index">02</span>
+                <i class='bx bx-dollar-circle project-icon'></i>
+            </div>
+            <h3>Currency Converter</h3>
+            <p class="dim">A responsive web app that converts between world currencies in real time using a live exchange-rate API, built entirely with vanilla JS.</p>
+            <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">API</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link"><i class='bx bxl-github'></i> Code</a>
+                <a href="#" class="project-link"><i class='bx bx-link-external'></i> Demo</a>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-card-head">
+                <span class="project-index">03</span>
+                <i class='bx bx-cloud-rain project-icon'></i>
+            </div>
+            <h3>Smart Umbrella</h3>
+            <p class="dim">An IoT-based smart umbrella that reads live weather data and alerts the user about rain, wind, and UV conditions before they head out.</p>
+            <div class="project-tags">
+                <span class="project-tag">IoT</span>
+                <span class="project-tag">Arduino</span>
+                <span class="project-tag">Sensors</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link"><i class='bx bxl-github'></i> Code</a>
+                <a href="#" class="project-link"><i class='bx bx-link-external'></i> Demo</a>
+            </div>
+        </div>
+
+        <div class="project-card reveal">
+            <div class="project-card-head">
+                <span class="project-index">04</span>
+                <i class='bx bx-camera project-icon'></i>
+            </div>
+            <h3>CamFu — AI Surveillance System</h3>
+            <p class="dim">A desktop surveillance platform with a JavaFX UI that streams live camera feeds via VLC, backed by a Python AI engine that scores each feed by activity using OpenCV and deep learning, so the most important camera always surfaces first.</p>
+            <div class="project-tags">
+                <span class="project-tag">Java</span>
+                <span class="project-tag">JavaFX</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">OpenCV</span>
+                <span class="project-tag">TensorFlow</span>
+                <span class="project-tag">Flask</span>
+                <span class="project-tag">MySQL</span>
+            </div>
+            <div class="project-links">
+                <a href="#" class="project-link"><i class='bx bxl-github'></i> Code</a>
+                <a href="#" class="project-link"><i class='bx bx-link-external'></i> Demo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications">
+    <p class="eyebrow reveal">// 04 — certifications</p>
+    <h2 class="section-title reveal">Verified credentials</h2>
+
+    <div class="cert-grid">
+        <div class="cert-card reveal">
+            <div class="cert-icon"><i class='bx bxl-python'></i></div>
+            <h3>Programming Fundamentals in Python</h3>
+            <p class="dim">Infosys Springboard</p>
+            <span class="cert-badge"><i class='bx bx-check-shield'></i> Verified</span>
+        </div>
+        <div class="cert-card reveal">
+            <div class="cert-icon"><i class='bx bxl-java'></i></div>
+            <h3>Programming Fundamentals in Java</h3>
+            <p class="dim">Infosys Springboard</p>
+            <span class="cert-badge"><i class='bx bx-check-shield'></i> Verified</span>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+    <p class="eyebrow reveal">// 05 — contact</p>
+    <h2 class="section-title reveal">Let's build something.</h2>
+    <p class="contact-sub reveal">Open to opportunities, collaborations, and a good conversation about code.</p>
+
+    <div class="contact-grid reveal">
+        <a href="mailto:mehakkhadwal345@gmail.com" class="contact-card">
+            <i class='bx bx-envelope'></i>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">mehakkhadwal345@gmail.com</span>
+        </a>
+        <a href="tel:+917876681" class="contact-card">
+            <i class='bx bx-phone'></i>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 7807257991</span>
+        </a>
+        <div class="contact-card">
+            <i class='bx bxs-location-plus'></i>
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Chintpurni, Himachal Pradesh</span>
+        </div>
+    </div>
+
+    <div class="social-row reveal">
+        <a href="https://linkedin.com/in/mehak-khadwal-0ba2a32ab" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/mehak097" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="#" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mehak Khadwal <span class="dim">/ built line by line</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
