@@ -1,6 +1,4 @@
-/* ============================================
-   TOKENS
-   ============================================ */
+
    :root{
     --bg: #1e1e2e;
     --bg-alt: #181825;
@@ -66,9 +64,7 @@ body{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* ============================================
-   NAV / TAB BAR
-   ============================================ */
+
 nav{
     position: fixed;
     top: 0;
@@ -126,9 +122,6 @@ nav{
 
 #menu{ color: var(--text); font-size: 1.8em; display: none; cursor: pointer; }
 
-/* ============================================
-   LAYOUT
-   ============================================ */
 section{
     min-height: 100vh;
     padding: 8em 15% 5em;
@@ -151,9 +144,7 @@ section{
     max-width: 700px;
 }
 
-/* ============================================
-   REVEAL ANIMATION
-   ============================================ */
+
 .reveal{
     opacity: 0;
     transform: translateY(30px);
@@ -169,9 +160,7 @@ section{
     .cursor-blink{ animation: none; }
 }
 
-/* ============================================
-   HOME / HERO
-   ============================================ */
+
 #home{
     display: flex;
     flex-direction: column;
@@ -292,9 +281,7 @@ section{
 }
 @keyframes bob{ 0%,100%{ transform: translate(-50%,0); } 50%{ transform: translate(-50%,10px); } }
 
-/* ============================================
-   ABOUT
-   ============================================ */
+
 #about{ background: var(--bg-alt); }
 .about-grid{
     display: grid;

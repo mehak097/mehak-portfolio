@@ -1,4 +1,4 @@
-/* ===== Mobile menu toggle ===== */
+
 const menuBtn = document.getElementById('menu');
 const tabs = document.querySelector('.tabs');
 
@@ -12,7 +12,7 @@ document.querySelectorAll('.tab-link').forEach(link => {
     });
 });
 
-/* ===== Typewriter effect for hero code block ===== */
+
 const codeLines = [
     "const developer = {",
     "  name: 'Mehak Khadwal',",
@@ -59,7 +59,7 @@ function typeWriter(){
 
 window.addEventListener('DOMContentLoaded', typeWriter);
 
-/* ===== Scroll reveal ===== */
+
 const revealEls = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -72,7 +72,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 revealEls.forEach(el => revealObserver.observe(el));
 
-/* ===== Scrollspy: highlight active tab based on section in view ===== */
+
 const sections = document.querySelectorAll('section[id]');
 const tabLinks = document.querySelectorAll('.tab-link');
 
